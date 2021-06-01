@@ -1,1 +1,1 @@
-Covid tracker
+Covid Dashboard
