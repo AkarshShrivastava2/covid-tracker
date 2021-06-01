@@ -36,12 +36,12 @@ const Subtracker = () => {
                 tot.map((item, id)=>{
                     return(
                         <tr>
-                            <th> {item.state}</th>
-                            <th> {item.confirmed}</th>
-                            <th> {item.active}</th>
-                            <th> {item.recovered}</th>
-                            <th> {item.deaths}</th>
-                            <th> {item.lastupdatedtime}</th>
+                            <td> {item.state}</td>
+                            <td> {item.confirmed}</td>
+                            <td> {item.active}</td>
+                            <td> {item.recovered}</td>
+                            <td> {item.deaths}</td>
+                            <td> {item.lastupdatedtime}</td>
                         </tr>
                     )
                 })
